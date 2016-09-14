@@ -1,0 +1,66 @@
+  - get resume together
+    x  find nice resumes & get them all in a folder
+    x research new resumes
+    x add MM exp to yours
+    - add technical 
+  - find out hiring tech
+  . do job searches
+  . find out top tech
+  
+1 hour studying
+2 hour researching
+2 coding mergesort
+
+x Make brush up list
+  order list
+======================================================
+
+To brush up:
+-----------
+search algorithms 
+  code school algorithm
+  -> mergesort
+
+javascript
+  -> class with prototype
+  enhance an object with a new function
+  arrow functions
+  twitter app in jquery?
+  straight javascript & jquery-
+    * query every other row
+    * every third row
+    * insert a row
+    * delete a row
+  closures
+  * currying
+
+Facebook twitter implementation news feed stuff
+
+Other excercises:
+  url shortener
+  merge sort 2 lists of varying lengths
+  design a facebook db & OO hierarchy
+  array of strings, make a paladrome or -1
+  2 sorted lists (or arrays) and a number k, fetch the least k numbers of the two lists
+  GET, POST, methods
+
+design questions?
+OO - hierarchies
+
+recursion
+  * fibonacci
+  * breadth first 
+  * depth first 
+
+data structures
+  heap
+  vector
+  bst
+
+css
+  location
+  * layout
+
+
+
+
