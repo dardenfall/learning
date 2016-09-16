@@ -7,9 +7,10 @@
   . do job searches
   . find out top tech
   
-1 hour studying
-2 hour researching
+3 hour studying 
 2 coding mergesort
+1 hour writing reverse
+.5 arrow functions
 
 x Make brush up list
   order list
@@ -18,13 +19,14 @@ x Make brush up list
 To brush up:
 -----------
 search algorithms 
-  code school algorithm
-  -> mergesort
+  -mergesort
+  -> insertionsort
+  code school algorithm course
 
 javascript
+  -enhance an object with a new function
   -> class with prototype
-  enhance an object with a new function
-  arrow functions
+  -arrow functions
   twitter app in jquery?
   straight javascript & jquery-
     * query every other row
@@ -45,12 +47,12 @@ Other excercises:
   GET, POST, methods
 
 design questions?
-OO - hierarchies
+  OO hierarchies
 
 recursion
-  * fibonacci
-  * breadth first 
-  * depth first 
+  -> fibonacci
+  breadth first 
+  depth first 
 
 data structures
   heap
@@ -59,7 +61,7 @@ data structures
 
 css
   location
-  * layout
+  layout
 
 
 
