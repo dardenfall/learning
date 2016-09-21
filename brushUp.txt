@@ -11,6 +11,7 @@
 2 coding mergesort
 1 hour writing reverse
 .5 arrow functions
+.5 misc
 
 x Make brush up list
   order list
@@ -18,6 +19,8 @@ x Make brush up list
 
 To brush up:
 -----------
+hackerrank
+
 search algorithms 
   -mergesort
   -> insertionsort
@@ -28,29 +31,29 @@ javascript
   -> class with prototype
   -arrow functions
   twitter app in jquery?
-  straight javascript & jquery-
+  straight javascript & jquery
     * query every other row
     * every third row
     * insert a row
     * delete a row
-  closures
-  * currying
-
-Facebook twitter implementation news feed stuff
+  closures tests
+  -currying
 
 Other excercises:
-  url shortener
-  merge sort 2 lists of varying lengths
+  -> url shortener
+  -merge sort 2 lists of varying lengths
   design a facebook db & OO hierarchy
   array of strings, make a paladrome or -1
   2 sorted lists (or arrays) and a number k, fetch the least k numbers of the two lists
-  GET, POST, methods
+  -GET, POST, methods
+
+Facebook twitter implementation news feed stuff
 
 design questions?
   OO hierarchies
 
 recursion
-  -> fibonacci
+  -fibonacci
   breadth first 
   depth first 
 

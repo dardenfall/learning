@@ -1,79 +1,55 @@
 
-function splitArray(source, target2dArray){
+function mergesort(a){
 
-  var halfIndex = Math.floor(source.length/2);
-
-  target2dArray.push(source.slice(0, halfIndex));
-  target2dArray.push(source.slice(halfIndex));
-}
-
-
-var target = [];
-
-function breakDownArray(source, target){
-
-  while(source.length > 2){
-    target.push(source.slice(0,2));
-    source = source.slice(2);
-  }
-  target.push(source);
-}
-
-function mergeSort(source){
-  var storage = [];
-  breakDownArray(source, storage);
-
-  
-  for (var i = 0; i < storage.length; i++) {
-    var t = storage[i];
-
+  if(a.length < 2){
+    return a;
   }
 
-  
+  var half = Math.floor(a.length/2);
+  var firstHalf = a.slice(0,half);
+  var secondHalf = a.slice(half);
+
+  return merge(mergesort(firstHalf), mergesort(secondHalf));
 }
 
-// (function(){
-//   var oddArray = [1,2,3,4,5];  
-//   var evenArray = [1,2,3,4];
-//   var target1 = [];
-//   var target2 = [];
+function merge(one, two){
 
-//   breakDownArray(oddArray, target1);
-//   breakDownArray(evenArray, target2);
+  var result = [];
 
-//   console.log(target1)
-//   console.log(target2)
-// })()
+  while(one.length && two.length){
+    if(one[0] < two[0]){
+      result.push(one.shift())
+    }
+    else{
+      result.push(two.shift())
+    }
+  }
+
+  while(one.length){
+    result.push(one.shift());
+  }
+  while(two.length){
+    result.push(two.shift());
+  }
+
+  return result;
+}
+
+(function () {
+  var a = [1,2,4,3]
+  var b = [2,6,4]
+  var c = [1]
+  var d = [6,4]
+  var e = []
+  var f = [5,3,7] 
+  var g = [9,6,1,5,7]
+
+  console.log(mergesort(a))
+  console.log(mergesort(b))
+  console.log(mergesort(c))
+  console.log(mergesort(d))
+  console.log(mergesort(e))
+  console.log(mergesort(f.concat(g)))
+})()
 
 
-// function create2dArray(n) {
-//   var twoDArray = [];
-
-//   for(var i=0; i < n; i++){
-//     twoDArray[i] = new Array();
-//   }
-
-//   return twoDArray;
-// }
-
-// (function (){
-//   var i;
-//   var foo = create2dArray(3);
-//   var val = 100;
-
-//   for(i of foo){
-//     i[0] = val++;
-//     i[1] = val++ 
-//     i[2] = val++ 
-//   }
-
-//   console.log(foo);
-
-//   var target = [];
-//   for(i of foo){
-//     splitArray(i,target);
-//   }
-
-//   console.log(target);
-
-// })()
