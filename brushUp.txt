@@ -12,6 +12,7 @@
 1 hour writing reverse
 .5 arrow functions
 .5 misc
+.5 closures
 
 x Make brush up list
   order list
@@ -36,7 +37,7 @@ javascript
     * every third row
     * insert a row
     * delete a row
-  closures tests
+  -closures tests
   -currying
 
 Other excercises:
