@@ -13,9 +13,10 @@
 .5 arrow functions
 .5 misc
 .5 closures
+.5 prime
 
-x Make brush up list
-  order list
+-Make brush up list
+-order list
 ======================================================
 
 To brush up:
