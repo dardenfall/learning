@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css"></style>
+  <title>MyTwit</title>
+  <script src="http://twitter.github.com/hogan.js/builds/3.0.1/hogan-3.0.1.js"></script>
+  <script type="text/javascript">
+    
+    var tweets = [
+      {tweet: 'life is good'},
+      {tweet: 'life is pain'},
+      {tweet: 'life is so so'}
+    ];
+
+    var mainTemplate = " "
+
+  </script>
+</head>
+<body>
+
+  <div>
+    <div class='leftCol'>  
+    </div>
+    <div class='mainCol'>
+      {{#tweets}}
+        {{tweet}}
+      {{/tweets}}
+    </div>
+  </div>
+</body>
+
+</html>
