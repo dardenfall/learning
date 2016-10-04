@@ -1,12 +1,13 @@
-  - get resume together
-    x  find nice resumes & get them all in a folder
-    x research new resumes
-    x add MM exp to yours
-    - add technical 
-  - find out hiring tech
-  . do job searches
-  . find out top tech
-  
+-find nice resumes & get them all in a folder
+research new resumes
+-add MM exp to yours
+-add technical 
+-find out hiring tech
+-do job searches
+. find out top tech
+-Make brush up list
+-order list
+
 3 hour studying 
 2 coding mergesort
 1 hour writing reverse
@@ -14,14 +15,15 @@
 .5 misc
 .5 closures
 .5 prime
+1.5 fake twitter
+.5 bbn app
+.5 fib highlight
 
--Make brush up list
--order list
 ======================================================
 
 To brush up:
 -----------
-hackerrank
+-hackerrank
 
 search algorithms 
   -mergesort
@@ -32,7 +34,7 @@ javascript
   -enhance an object with a new function
   -> class with prototype
   -arrow functions
-  twitter app in jquery?
+  -> twitter app in jquery
   straight javascript & jquery
     * query every other row
     * every third row
@@ -48,8 +50,6 @@ Other excercises:
   array of strings, make a paladrome or -1
   2 sorted lists (or arrays) and a number k, fetch the least k numbers of the two lists
   -GET, POST, methods
-
-Facebook twitter implementation news feed stuff
 
 design questions?
   OO hierarchies
