@@ -62,27 +62,19 @@
       }
     }
 
-    var isFib = function(num) {
 
-      let fibNumbers = [];
-
-      for(var i = 0; i<num*2; i++){
-        fibNumbers.push(fib(i));
-      }
-
-      return fibNumbers.includes(num);
+    let fibNumbers = [];
+    for(var i = 0; i < 20; i++){
+      fibNumbers.push(fib(i));
     }
 
-
-    debugger;
     console.log('here')
     var highlightFib = function(){
 
       var divs = $('.fib div');
-      
+
       for(var j=0; j < divs.length; j++){
-        if(isFib(j)){
-        console.log(j)
+        if(fibNumbers.includes(j)){
           var d = divs[j];
           $(d).css('background','blue');
         }
