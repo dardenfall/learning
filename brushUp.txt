@@ -4,7 +4,7 @@ research new resumes
 -add technical 
 -find out hiring tech
 -do job searches
-. find out top tech
+ find out top tech
 -Make brush up list
 -order list
 
@@ -36,8 +36,7 @@ javascript
   -arrow functions
   -> twitter app in jquery
   straight javascript & jquery
-    * query every other row
-    * every third row
+    - query every other row
     * insert a row
     * delete a row
   -closures tests
