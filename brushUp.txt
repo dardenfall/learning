@@ -19,11 +19,13 @@ research new resumes
 .5 bbn app
 .5 fib highlight
 .5 insert & delete
-2 bev's app
+2.5 bev's app
 .5 working on resume
 1 dupes
 .5 explaining dsp/dmp
 1.5 writing list
+.5 list add
+
 ======================================================
 
 To brush up:
@@ -46,6 +48,7 @@ javascript
     * delete a row
   -closures tests
   -currying
+  primitives
 
 Other excercises:
   -> url shortener
