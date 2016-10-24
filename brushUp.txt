@@ -25,6 +25,8 @@ research new resumes
 .5 explaining dsp/dmp
 1.5 writing list
 .5 list add
+1.5 tree funcs
+.5 study
 
 ======================================================
 
