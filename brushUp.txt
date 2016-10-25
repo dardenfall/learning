@@ -9,23 +9,23 @@ research new resumes
 -order list
 
 3.5 hour studying 
+2.5 tree funcs
+2.5 bev's app
 2 coding mergesort
+1.5 fake twitter
+1.5 writing list
 1 hour writing reverse
+1 dupes
 .5 arrow functions
 .5 misc
 .5 closures
 .5 prime
-1.5 fake twitter
 .5 bbn app
 .5 fib highlight
 .5 insert & delete
-2.5 bev's app
 .5 working on resume
-1 dupes
 .5 explaining dsp/dmp
-1.5 writing list
 .5 list add
-2.5 tree funcs
 .5 study
 
 ======================================================
