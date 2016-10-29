@@ -27,6 +27,7 @@ research new resumes
 .5 explaining dsp/dmp
 .5 list add
 .5 study
+.5 update console
 
 ======================================================
 
