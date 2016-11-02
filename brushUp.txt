@@ -9,8 +9,8 @@ research new resumes
 -order list
 
 3.5 hour studying 
+3 bev's app
 2.5 tree funcs
-2.5 bev's app
 2 coding mergesort
 1.5 fake twitter
 1.5 writing list
@@ -85,5 +85,11 @@ projects
   NetGenesis 5j 
 
 
+-----------------------
 
+var newConsole.log = console.log; 
+console.log =(function()
+  {var f = function(msg){newConsole.log('hey this is tony'+ msg);} 
+  return f; }
+)()
 
