@@ -16,6 +16,7 @@ research new resumes
 1.5 writing list
 1 hour writing reverse
 1 dupes
+1 quicksort
 .5 arrow functions
 .5 misc
 .5 closures

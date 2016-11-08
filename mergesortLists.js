@@ -6,7 +6,7 @@ function mergesort(a){
   }
 
   var half = Math.floor(a.length/2);
-  var firstHalf = a.slice(0,half);
+  var firstHalf = a.slice(0,half); 
   var secondHalf = a.slice(half);
 
   return merge(mergesort(firstHalf), mergesort(secondHalf));
@@ -25,14 +25,7 @@ function merge(one, two){
     }
   }
 
-  while(one.length){
-    result.push(one.shift());
-  }
-  while(two.length){
-    result.push(two.shift());
-  }
-
-  return result;
+  return result.concat(one).concat(two);
 }
 
 (function () {
