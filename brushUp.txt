@@ -17,6 +17,7 @@ research new resumes
 1 hour writing reverse
 1 dupes
 1 quicksort
+1 DB relational models
 .5 arrow functions
 .5 misc
 .5 closures
