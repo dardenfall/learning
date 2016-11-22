@@ -41,10 +41,11 @@ function printList(list){
 }
 
 function deleteNode(list, val){
-  var prev, retval = null;
+  var prev = retval = null;
   var orig = list;
 
   while(list !== null){
+    console.log("here", prev)
     if(list.val === val){
       if(prev === null){
         retval = list.next;
@@ -68,7 +69,7 @@ function deleteNode(list, val){
 printList(createList([5,6,8,7]));
 var list = createList(["abc", "123", "0.2"]);
 printList(list);
-list = deleteNode(list, "123")
+list = deleteNode(list, "abc")
 printList(list);
 
 

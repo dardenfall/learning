@@ -8,12 +8,12 @@ research new resumes
 -Make brush up list
 -order list
 
-3.5 hour studying 
+6 hour studying 
 3 bev's app
 2.5 tree funcs
 2 coding mergesort
 1.5 fake twitter
-1.5 writing list
+2 writing list
 1 hour writing reverse
 1 dupes
 1 quicksort
@@ -55,7 +55,7 @@ javascript
   -currying
   primitives
 
-Other excercises:
+Other exercises:
   -> url shortener
   -merge sort 2 lists of varying lengths
   design a facebook db & OO hierarchy
