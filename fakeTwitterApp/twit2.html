@@ -2,29 +2,95 @@
 <head>
 <title>My Twitter</title>
 <style>
-.header {background:red;}
-.content-container {display: flex}
-.left {background:blue;}
-.right {background:green;}
-.center {background:yellow;}
-.footer {background:purple;}
+.header {
+  height: 120px;
+  background:red;
+}
+.container {
+  max-width: 50em;
+  margin: auto;
+}
+.content-container {
+  display: flex; 
+  justify-content: center;
+  height: 600px;
+}
+.left {
+  background:blue;
+  width: 20%;
+}
+.right {
+  background:green; 
+  width: 20%;
+}
+.center {
+  background:yellow;
+  width: 60%;
+}
+.footer {
+  background:purple;
+  height: 80px;
+}
+.tweet {
+  padding: 10px;
+  border: grey solid 1px;
+  margin: 7px;
+  border-radius: 5px;
+}
+.name{
+  
+}
+
+.email{
+  font-size: .8em;
+  border-bottom: grey solid 1px;
+}
+.msg{
+  text-align: center;
+}
+
 </style>
 
 </head>
 
 <body>
+<div class="container">
+  <div class="header">header</div>
+  <div class="content-container"> 
+    <div class="left">left</div>
+    
+    <div class="center">
+    
 
-<div class="header">header</div>
-<div class="content-container"> 
-  <div class="left">left</div>
-  <div class="center">center</div>
-  <div class="right">right</div>
-</div>
-<div class="footer">footer</div>
+    </div>
+    
+    <div class="right">right</div>
+  </div>
+  <div class="footer">footer</div>
+<div>
 
-
+<script src="http://twitter.github.com/hogan.js/builds/3.0.1/hogan-3.0.1.js"></script>
 <script>
-  console.log('hello world');
+  var tweets = {
+    tweets : [
+      {name: "joe", email: "a@a.com", msg: "life is good"},
+      {name: "joe", email: "a@a.com", msg: "life is pain"},
+      {name: "joe", email: "a@a.com", msg: "life is neither"}
+    ]
+  };
+
+  var template = '{{#tweets}}<div class="tweet">' + 
+    '<div class="name">{{name}}</div>' +
+    '<div class="email">{{email}}</div>' +
+    '<div class="msg">{{msg}}</div>' +
+    '</div>{{/tweets}}';
+
+  var compiledTweets = Hogan.compile(template);
+
+  var elements = document.querySelectorAll(".center");
+          
+  elements[0].insertAdjacentHTML('afterbegin',compiledTweets.render(tweets));
+
 </script>
 
 </body>

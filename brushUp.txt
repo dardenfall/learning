@@ -12,7 +12,7 @@ research new resumes
 3 bev's app
 2.5 tree funcs
 2 coding mergesort
-1.5 fake twitter
+2.5 fake twitter
 2 writing list
 1 hour writing reverse
 1 dupes
