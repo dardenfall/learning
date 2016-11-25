@@ -8,10 +8,10 @@ research new resumes
 -Make brush up list
 -order list
 
-6 hour studying 
+8 hour studying 
 3 bev's app
 2.5 tree funcs
-2 coding mergesort
+2.5 mergesort
 2.5 fake twitter
 2 writing list
 1 hour writing reverse

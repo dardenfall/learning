@@ -5,11 +5,11 @@ function mergesort(a){
     return a;
   }
 
-  var half = Math.floor(a.length/2);
+  var half = Math.floor(a.length/2); // use length /2 not length -1 / 2
   var firstHalf = a.slice(0,half); 
   var secondHalf = a.slice(half);
 
-  return merge(mergesort(firstHalf), mergesort(secondHalf));
+  return merge(mergesort(firstHalf), mergesort(secondHalf)); //remember to return!
 }
 
 function merge(one, two){
@@ -25,7 +25,7 @@ function merge(one, two){
     }
   }
 
-  return result.concat(one).concat(two);
+  return result.concat(one).concat(two);  //remember concat returns an array doesnt change it inline
 }
 
 (function () {
