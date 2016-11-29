@@ -5,7 +5,9 @@ Array.prototype.addFoo = function(){
 
 (function(){
   var test = ['abc', 1234];
+  var nil = [];
 
   test.addFoo();
-  console.log(test)
+  console.log(test);
+    
 })()

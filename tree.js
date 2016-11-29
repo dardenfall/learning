@@ -113,21 +113,26 @@ var Bst = function(){
   }    
 }
 
-/*
+
 var binaryTree = new Bst();
 
-binaryTree.add(2);
+binaryTree.add(8);
+binaryTree.add(3);
+binaryTree.add(12);
 binaryTree.add(1);
-binaryTree.add(3);
-binaryTree.add(3);
-binaryTree.add(5);
+binaryTree.add(4);
+binaryTree.add(9);
+binaryTree.add(13);
+binaryTree.add(18);
+binaryTree.add(11);
+
 console.log( binaryTree.verify() )
 binaryTree.print();
-*/
 
-var binaryTree = new Bst();
-binaryTree.add(9);
-binaryTree._pushLeft(1);
-binaryTree._pushLeftRight(10);
 
-console.log(binaryTree.verify())
+// var binaryTree = new Bst();
+// binaryTree.add(9);
+// binaryTree._pushLeft(1);
+// binaryTree._pushLeftRight(10);
+
+// console.log(binaryTree.verify())
