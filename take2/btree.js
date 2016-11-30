@@ -98,6 +98,55 @@ function validate(node){
   return validateHelper(node, Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY);
 }
 
+function search(val, node, isBreadthFirst){
+
+  function depthSearch(node){
+
+    if(node === null){
+      return false;
+    }
+    else if(node._val === val){
+      return true;
+    }
+    else{
+      return depthSearch(node._left) ||
+            depthSearch(node._right)
+    }
+  }
+
+  function breadthFirst(node){
+    var queue = [];
+
+    queue.push(node);
+    while(queue.length != 0){
+      
+      var tempNode = queue.shift();
+      if(tempNode !== null && 
+         val === tempNode._val){
+        return true;
+      }
+
+      if(tempNode._left !== null){
+        queue.push(tempNode._left);
+      }
+      if(tempNode._right !== null){
+        queue.push(tempNode._right);
+      }
+      
+    } 
+
+    return false;
+  }
+
+  if(isBreadthFirst){
+    console.log(breadthFirst)
+    return breadthFirst(node);
+  }
+  else{
+    return depthSearch(node);
+  }  
+}
+
 (function(){
   var tree = new Node(8);
   add(3,tree);
@@ -111,4 +160,6 @@ function validate(node){
 
   print(tree);
   console.log(validate(tree));
+  console.log(search(9, tree,true));
+  console.log(search(29, tree,true));
 })()

@@ -8,7 +8,7 @@ research new resumes
 -Make brush up list
 -order list
 
-8 hour studying 
+9.5 hour studying 
 3 bev's app
 2.5 tree funcs
 2.5 mergesort
@@ -18,6 +18,7 @@ research new resumes
 1 dupes
 1 quicksort
 1 DB relational models
+1 merge array question
 .5 arrow functions
 .5 misc
 .5 closures
