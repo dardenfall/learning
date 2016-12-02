@@ -8,7 +8,7 @@ research new resumes
 -Make brush up list
 -order list
 
-9.5 hour studying 
+10 hour studying 
 3 bev's app
 2.5 tree funcs
 2.5 mergesort
@@ -40,12 +40,12 @@ To brush up:
 
 search algorithms 
   -mergesort
-  -> insertionsort
-  code school algorithm course
+  - insertionsort
+  
 
 javascript
   -enhance an object with a new function
-  -> class with prototype
+  - class with prototype
   -arrow functions
   -> twitter app in jquery
   straight javascript & jquery
