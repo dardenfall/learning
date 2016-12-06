@@ -14,11 +14,15 @@ research new resumes
 2.5 mergesort
 2.5 fake twitter
 2 writing list
+1.5 hubspot 
 1 hour writing reverse
 1 dupes
 1 quicksort
 1 DB relational models
 1 merge array question
+1 REST apis
+.5 API Study
+.5 OAUTH
 .5 arrow functions
 .5 misc
 .5 closures
@@ -30,7 +34,7 @@ research new resumes
 .5 explaining dsp/dmp
 .5 list add
 .5 study
-.5 update console
+.5 upd ate console
 
 ======================================================
 
