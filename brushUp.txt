@@ -11,8 +11,8 @@ research new resumes
 10 hour studying 
 3 bev's app
 2.5 tree funcs
-2.5 mergesort
-2.5 fake twitter
+3.5 mergesort
+3.5 fake twitter
 2 writing list
 1.5 hubspot 
 1 hour writing reverse

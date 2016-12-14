@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <style>
+    .header {background-color: green;}
+
+    .left {
+      background-color: blue;
+      width: 15%;
+    }
+
+    .middle {
+      background-color: yellow;
+      width: 70%;
+    }
+
+    .right {background-color: purple;
+      width: 15%;
+    }
+
+    .footer {background-color: grey}
+
+    .columns {
+      display: flex
+
+    }
+
+  </style>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/hogan.js/2.0.0/hogan.js"></script>
+</head>
+<body>
+
+<div class="container">
+  
+  <div class="header">header
+  </div>
+
+  <div class="columns">
+    <div class="left">left
+    </div>
+
+    <div class="middle">middle
+      <div class="tweets">
+        {{#tweets}}
+          <div class="tweet">
+            <span class="name"></span>
+            <span class="date"></span>
+            <span class="tweet"></span>
+          </div>
+        {{/tweets}}
+      </div>
+
+    </div>
+
+    <div class="right">right
+    </div>
+  </div>
+
+  <div class="footer">footer
+  </div>
+</div>
+
+<script>
+
+
+
+  function ready(fn) {
+    if(document.readyState != 'loading'){
+      fn();
+    }
+    else{
+      document.addEventListener('DOMContentLoaded', fn)
+    }
+  }
+
+  ready(function(){
+    console.log("ready");
+    var tweets = {
+
+      tweets:[
+        {name:"",
+         date:"",
+         tweet:""
+        }
+
+
+      ]
+    };
+
+  });
+
+</script>
+</body>
+</html>
