@@ -21,6 +21,7 @@ research new resumes
 1 DB relational models
 1 merge array question
 1 REST apis
+1 design questions
 .5 API Study
 .5 OAUTH
 .5 arrow functions
