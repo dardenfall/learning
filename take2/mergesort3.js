@@ -39,6 +39,6 @@ function merge(firstHalf, secondHalf, sortFunc){
 (function(){
   var test1 = [2,9,4,5,2,1,5,7];
 
-  console.log(mergesort(test1,function(a,b){return a > b}));
+  console.log(mergesort(test1,function(a,b){return a < b}));
 
 })()
