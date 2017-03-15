@@ -1,0 +1,94 @@
+-find nice resumes & get them all in a folder
+research new resumes
+-add MM exp to yours
+-add technical
+-find out hiring tech
+-do job searches
+ find out top tech
+-Make brush up list
+-order list
+
+10 hour studying
+3 bev's app
+2.5 tree funcs
+3.5 mergesort
+3.5 fake twitter
+2 writing list
+1.5 hubspot
+1 hour writing reverse
+1 dupes
+1 quicksort
+1 DB relational models
+1 merge array question
+1 REST apis
+1 design questions
+.5 API Study
+.5 OAUTH
+.5 arrow functions
+.5 misc
+.5 closures
+.5 prime
+.5 bbn app
+.5 fib highlight
+.5 insert & delete
+.5 working on resume
+.5 explaining dsp/dmp
+.5 list add
+.5 study
+.5 upd ate console
+
+======================================================
+
+To brush up:
+-----------
+-hackerrank
+
+search algorithms
+  -mergesort
+  - insertionsort
+
+
+javascript
+  -enhance an object with a new function
+  -class with prototype
+  -twitter app in jquery
+  straight javascript & jquery
+    - query every other row
+    * insert a row
+    * delete a row
+  -closures tests
+  -currying
+  primitives
+
+Other exercises:
+  -> url shortener
+  -merge sort 2 lists of varying lengths
+  design a facebook db & OO hierarchy
+  array of strings, make a paladrome or -1
+  2 sorted lists (or arrays) and a number k, fetch the least k numbers of the two lists
+  -GET, POST, methods
+
+design questions?
+  OO hierarchies
+
+recursion
+  -fibonacci
+  breadth first
+  depth first
+
+data structures
+  heap
+  vector
+  bst
+
+css
+  location
+  layout
+
+projects
+  hawkeye
+  segmentUI
+    drag and drop, algorithm to determine closest
+  NetGenesis 5j
+
+-----------------------
