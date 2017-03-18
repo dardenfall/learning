@@ -2,7 +2,7 @@ Time tracking:
 -------------
 
 Study: 1 hr - event propagation, AMD vs CommonJS
-
+  .5 - more IFFE null prototypes closure
 
 
 
@@ -13,7 +13,26 @@ Study: 1 hr - event propagation, AMD vs CommonJS
 
 ======================================
 
+notes:
+- AMD vs CommonJS
+  https://auth0.com/blog/javascript-module-systems-showdown/
+  AMD(require.js) better: async, a bit grosser syntactically
+- why use closures?  separation of concerns, private functions, if you want to set up
+    callbacks in a loop and have the incrementor value to reflect what it was when
+    the callback was setup
+  a = function(){
+    function private(){
+      return 5;
+    }
 
+    return{
+      public(){
+        private();
+      }
+    }
+  }
+
+TODO:
 -enhance an object with a new function
 -class with prototype
 -twitter app in jquery
