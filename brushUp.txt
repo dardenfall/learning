@@ -3,7 +3,9 @@ Time tracking:
 
 Study: 1 hr - event propagation, AMD vs CommonJS
   .5 - more IFFE null prototypes closure
-
+  .5 - lifecycle
+  1 hr - chapter 3 functions in ninja
+  1 hr - chapter 4 functions in ninja
 
 
 
