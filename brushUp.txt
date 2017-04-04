@@ -7,7 +7,12 @@ Study: 1 hr - event propagation, AMD vs CommonJS
   1 hr - chapter 3 functions in ninja
   1 hr - chapter 4 functions in ninja
   1 hr - chapter 5 & closure/lisp
-  .75 hr - chapter 6 generators 
+  .75 hr - chapter 6 generators
+  1 hr - finished 6, on to 7
+  1hr - finish 7 and 8 on to 9
+  
+
+
 
 
 
