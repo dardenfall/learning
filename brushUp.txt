@@ -10,7 +10,7 @@ Study: 1 hr - event propagation, AMD vs CommonJS
   .75 hr - chapter 6 generators
   1 hr - finished 6, on to 7
   1hr - finish 7 and 8 on to 9
-  
+  .75 hr - finished 9
 
 
 
