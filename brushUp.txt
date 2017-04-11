@@ -13,6 +13,7 @@ Study: 1 hr - event propagation, AMD vs CommonJS
   .75 hr - finished 9
   .5 hr - 10
   .75 hr - finished 10 & 11
+  1 hr - finished 12, started on 13
 
 
 
