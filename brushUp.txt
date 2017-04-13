@@ -1,26 +1,26 @@
 Time tracking:
 -------------
+Javascript Ninja:
+  Study: 1 hr - event propagation, AMD vs CommonJS
+    .5 - more IFFE null prototypes closure
+    .5 - lifecycle
+    1 hr - chapter 3 functions in ninja
+    1 hr - chapter 4 functions in ninja
+    1 hr - chapter 5 & closure/lisp
+    .75 hr - chapter 6 generators
+    1 hr - finished 6, on to 7
+    1hr - finish 7 and 8 on to 9
+    .75 hr - finished 9
+    .5 hr - 10
+    .75 hr - finished 10 & 11
+    1 hr - finished 12, started on 13
+    .5 hr FINISHED!
 
-Study: 1 hr - event propagation, AMD vs CommonJS
-  .5 - more IFFE null prototypes closure
-  .5 - lifecycle
-  1 hr - chapter 3 functions in ninja
-  1 hr - chapter 4 functions in ninja
-  1 hr - chapter 5 & closure/lisp
-  .75 hr - chapter 6 generators
-  1 hr - finished 6, on to 7
-  1hr - finish 7 and 8 on to 9
-  .75 hr - finished 9
-  .5 hr - 10
-  .75 hr - finished 10 & 11
-  1 hr - finished 12, started on 13
+Mathworks:
+    .5 getting interview info
 
-
-
-
-
-
-
+React:
+    .5 hr restarted training
 
 ======================================
 
