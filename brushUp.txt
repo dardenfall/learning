@@ -21,7 +21,9 @@ Mathworks:
 
 React:
     .5 hr restarted training
-
+    .5 jscomplete & https://app.pluralsight.com/player?course=react-js-getting-started&author=samer-buna&name=react-js-getting-started-m1&clip=2
+    .5 react steam app https://jscomplete.com/repl
+    1  ditto
 ======================================
 
 notes:
