@@ -30,8 +30,6 @@ React:
 
 
 
-
-
 ======================================
 // write code here and click the execute button
 class Button extends React.Component {
