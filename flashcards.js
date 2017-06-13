@@ -15,4 +15,10 @@
 8) how do you declare use strict in node
   - "use strict";
 9) how to lowercase a string?
-  - str.toLowerCase() 
+  - str.toLowerCase()
+10) what is the signature to tokenize string
+  -
+11) how to parse a expr into postfix notation
+
+12) check if an array is empty
+  - array.length > 0

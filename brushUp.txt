@@ -19,6 +19,7 @@ Javascript Ninja:
 Mathworks:
     .5 getting interview info
     1 did string problem
+    .5 started numeric expr exercise
 
 React:
     .5 hr restarted training

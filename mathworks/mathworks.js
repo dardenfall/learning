@@ -7,12 +7,16 @@ What do you do when you dont know something?
 >>
 The hacker rank challenge questions were the following:
 1. Given a List of Strings,
-return the words that can be typed only using one row of your keyboard.
-example: ["Hello", "Alaska", "Dad", "Peace"] => ["Alaska", "Dad"]
+      return the words that can be typed only using one row of your keyboard.
+      example: ["Hello", "Alaska", "Dad", "Peace"] => ["Alaska", "Dad"]
+  done: 1 time, oneline.js
+
+
 2. Given a List of Strings of operators and numbers,
-determine the sum of the given expression. T
-he numbers can be positive or negative and the operators only have
-multiplication and division.
+determine the sum of the given expression. The numbers can be positive or negative
+and the operators only have multiplication and division.
+
+
 3. Given an array starting from 1 to 2^n, [1,2,3,4], transform the array
 such that when you split the array in half, the left side goes on top of the
 right, repeat this until the left side has a length of 1.
