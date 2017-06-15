@@ -1,18 +1,17 @@
 "use strict";
 
 function calculate(expr){
-  expr = expr.toLowerCase();
-  var operators = ['x', '/'];
+  var operators = ['*', '/'];
   var tokens = expr.split(' ');
 
   var answerStack = [];
   var opStack = [];
   tokens.forEach(function(token){
-    if(token !== 'x' && token !== '/'){
+    if(token !== '*' && token !== '/'){
       answerStack.push(token);
     }
     else{
-      if(token === 'x'){
+      if(token === '*'){
         if(opStack.length === 0){
           opStack.push(token);
         }
@@ -39,14 +38,41 @@ function calculate(expr){
   //console.log(answerStack,opStack)
   answerStack = answerStack.concat(opStack);
   console.log(answerStack);
+
+  var op1, op2;
+  var runningTotal = 0;
+  answerStack.forEach(token => {
+    console.log(token, runningTotal, op1, op2)
+    if(token !== '*' && token !== '/'){
+      if(!op1){
+        op1 = parseInt(token);
+      }
+      else{
+        op2 = parseInt(token);
+      }
+    }
+    else{
+      if(token === '*'){
+        runningTotal = op1 * op2;
+      }
+      else{
+        runningTotal = op1 / op2;
+      }
+      op1 = undefined;
+      op2 = undefined;
+    }
+
+  });
+
+  return runningTotal;
 }
 
 const expr = [{
-    q: "1 x 2 x 3",
+    q: "1 * 2 * 3",
     a: 6
 },
 {
-    q: "1 X 2 X 3",
+    q: "1 * 2 * 3",
     a: 6
 },
 {

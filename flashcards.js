@@ -22,3 +22,13 @@
 
 12) check if an array is empty
   - array.length > 0
+13) what does Array.prototype.shift do?
+  - returns the first member of the array and removes it
+14) what does Array.prototype.unshift do?
+  - pushes an object or objects to the front of an array
+15) how do you parse an int/float
+  - parseInt() parseFloat()
+16) um... how do you multiply things?
+
+17) What is polymorphism
+  - "When classes have different functionality while sharing the same interface"
