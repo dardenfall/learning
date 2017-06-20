@@ -1,24 +1,13 @@
 Time tracking:
 -------------
 Javascript Ninja:
-  Study: 1 hr - event propagation, AMD vs CommonJS
-    .5 - more IFFE null prototypes closure
-    .5 - lifecycle
-    1 hr - chapter 3 functions in ninja
-    1 hr - chapter 4 functions in ninja
-    1 hr - chapter 5 & closure/lisp
-    .75 hr - chapter 6 generators
-    1 hr - finished 6, on to 7
-    1hr - finish 7 and 8 on to 9
-    .75 hr - finished 9
-    .5 hr - 10
-    .75 hr - finished 10 & 11
-    1 hr - finished 12, started on 13
-    .5 hr FINISHED!
+  Study: 10 hours (nice)
 
 Misc:
     1 - watching video https://app.pluralsight.com/player?course=developer-job-interviews&author=john-sonmez&name=job-interview-m1-intro&clip=4&mode=live
-
+    1 = " also working on flashcards
+    .5 working on flashcards
+    
 Mathworks:
     .5 getting interview info
     1 did string problem
@@ -37,35 +26,25 @@ notes:
 - AMD vs CommonJS
   https://auth0.com/blog/javascript-module-systems-showdown/
   AMD(require.js) better: async, a bit grosser syntactically
-- why use closures?  separation of concerns, private functions, if you want to set up
-    callbacks in a loop and have the incrementor value to reflect what it was when
-    the callback was setup
-  a = function(){
-    function private(){
-      return 5;
-    }
-
-    return{
-      public(){
-        private();
-      }
-    }
-  }
 
 TODO:
--enhance an object with a new function
--class with prototype
--twitter app in jquery
-straight javascript & jquery
-  - query every other row
-  * insert a row
-  * delete a row
--closures tests
--currying
-primitives
+- strengths and weaknesses
+- disagreement with a coworker
+  find a situation when I was wrong and came around.  Maybe code reviews?
+- design pattern course pluralsight
+- steve smith plural sight OO course.  SOLID
+- spend some time on atom dev env
+- enhance an object with a new function
+- class with prototype
+- closures tests
+- currying
+- primitives
 
-====================================
 
+
+
+Javascript questions:
+--------------------
 Explain event delegation
 Explain how this works in JavaScript
 Explain how prototypal inheritance works
