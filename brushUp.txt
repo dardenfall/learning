@@ -6,13 +6,14 @@ Javascript Ninja:
 Misc:
     1 - watching video https://app.pluralsight.com/player?course=developer-job-interviews&author=john-sonmez&name=job-interview-m1-intro&clip=4&mode=live
     1 = " also working on flashcards
-    .5 working on flashcards
-    
+    1 working on flashcards
+
 Mathworks:
     .5 getting interview info
     1 did string problem
     .5 started numeric expr exercise
     1 numeric exercise
+    .5 MATLAB: https://app.pluralsight.com/player?course=matlab-fundamentals&author=dmitri-nesteruk&name=matlab-fundamentals-m01&clip=0&mode=live
 
 React:
     .5 hr restarted training

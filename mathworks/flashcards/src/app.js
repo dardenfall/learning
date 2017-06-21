@@ -9,20 +9,41 @@
     )
   }
 
-  const Card = (props) => {
-  	return (
+class Card extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {isAnswered:false};
+  }
+
+  showAnswer() {
+    this.setState((prevState) => ({
+      isAnswered:true
+    }));
+  }
+
+  render(){
+    let answer = null;
+
+    if(this.state.isAnswered){
+      answer = <p className="answer">{this.props.answer}</p>
+    }
+    else{
+      answer = <button onClick={this.showAnswer.bind(this)}>Get Answer</button>
+    }
+
+   	return (
       <div className="card">
         <div className="card-header">
-          {props.name}
+          {this.props.name}
         </div>
         <div className="card-block">
-          <p className="card-text">{props.question}</p>
-          <a href="#" className="btn btn-primary">Get Answer</a>
-          <p className="answer">{props.answer}</p>
-        </div>
+          <p className="card-text">{this.props.question}</p>
+            {answer}
+          </div>
       </div>
     )
   }
+}
 
   const data = [
   { "name":"javascript",
@@ -85,8 +106,8 @@
    "answer": "separation of concerns,<br>private functions,<br>if you want to set up callbacks in a loop and have the incrementor value to reflect what it was whenthe callback was setup<br>a = function(){<br>function private(){<br>return 5;<br>}<br><br>return{<br>public(){<br>private();<br>}<br>}<br>}"},
   {"name":"javascript","question": "what is seperation of concerns?",
    "answer":"-----"},
-  {"name":"javascript","question": "what mathematic op happens with a shift left? How about a shift right?",
-  "answer":"-----"}
+   {"name":"javascript","question": "what mathematic op happens with a shift left? How about a shift right?",
+   "answer":"-----"}
 
   ]
 
