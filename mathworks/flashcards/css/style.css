@@ -24,4 +24,9 @@
 
 .card-block {
   padding: 5px;
-} 
+}
+
+input {
+  display: block;
+  width: 500px;
+}

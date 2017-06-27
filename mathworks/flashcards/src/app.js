@@ -39,7 +39,8 @@ class Card extends React.Component {
         <div className="card-block">
           <p className="card-text">{this.props.question}</p>
             {answer}
-          </div>
+          <input type="text"></input>
+        </div>
       </div>
     )
   }
@@ -53,7 +54,8 @@ class Card extends React.Component {
   { "name":"javascript", "question": "how to init a javascript 2d array?",
     "answer":"normal way var a=[[a],[b]];"},
   { "name":"javascript", "question": "forEach signature",
-    "answer":"------"},
+    "answer":"Array.prototype.forEach(function(item, index, currentArray), thisContext)"},
+
   { "name":"javascript", "question": "filter signature",
     "answer":"array.filter(function(element, index, array), thisContext);"},
   { "name":"javascript", "question": "what is the signature for array.every and why use array.every or array.some?",
@@ -107,7 +109,25 @@ class Card extends React.Component {
   {"name":"javascript","question": "what is seperation of concerns?",
    "answer":"-----"},
    {"name":"javascript","question": "what mathematic op happens with a shift left? How about a shift right?",
-   "answer":"-----"}
+   "answer":"-----"},
+   {"name":"css",
+   "question": "what does the & param do in sass?",
+   "answer":".parent{.child{}} -> .parent .child {}, .parent{ &.child{}} -> .parent.child "},
+   {"name":"css",
+   "question": "what does 'div, p' select?",
+   "answer":"selects all div and p elements"},
+   {"name":"css",
+   "question": "what does 'div p' select?",
+   "answer":"selects all p elements inside div elements"},
+   {"name":"css",
+   "question": "what does 'div > p' select?",
+   "answer":"selects all p elements where div is the parent"},
+   {"name":"css",
+   "question": "what does 'div > p' select?",
+   "answer":"selects all p elements where div is the parent"},
+   {"name":"css",
+   "question": "what does 'div + p' select?",
+   "answer":"selects all p elements immediately next to a div"},
 
   ]
 
