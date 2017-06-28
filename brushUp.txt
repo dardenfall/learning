@@ -14,6 +14,9 @@ Mathworks:
     .5 started numeric expr exercise
     1 numeric exercise
     .5 MATLAB: https://app.pluralsight.com/player?course=matlab-fundamentals&author=dmitri-nesteruk&name=matlab-fundamentals-m01&clip=0&mode=live
+    .5 flashcards app
+    .5 questions and java work
+    .5 flashcards
 
 React:
     .5 hr restarted training
@@ -28,10 +31,14 @@ notes:
   https://auth0.com/blog/javascript-module-systems-showdown/
   AMD(require.js) better: async, a bit grosser syntactically
 
+
 TODO:
+- more design patterns
+  
 - strengths and weaknesses
 - disagreement with a coworker
   find a situation when I was wrong and came around.  Maybe code reviews?
+
 - design pattern course pluralsight
 - steve smith plural sight OO course.  SOLID
 - spend some time on atom dev env
@@ -42,12 +49,9 @@ TODO:
 - primitives
 
 
-
-
 Javascript questions:
 --------------------
-Explain event delegation
-Explain how this works in JavaScript
+
 Explain how prototypal inheritance works
 What do you think of AMD vs CommonJS?
 Explain why the following doesn't work as an IIFE: function foo(){ }();.
