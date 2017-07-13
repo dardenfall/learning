@@ -194,6 +194,20 @@ class Card extends React.Component {
   {"name":"MATLAB",
    "question": "What is the concat operator for strings?",
    "answer":"['foo' e.message]" },   
+  {"name": "javascript",
+   "question": "How to split an array in half",
+   "answer": "var newArr = arr.slice(0, Math.ceil(arr.length))" },
+  {"name": "javascript",
+   "question": "What is the function signature for sPlice?",
+   "answer": "var removedElements = arr.splice(indexToInsertBefore, howMany, arrayToInsert)" },
+  {"name": "javascript",
+   "question": "how do you export something from a js module with a different name?",
+   "answer": "export {x as y}" },
+ {"name": "javascript",
+   "question": "how do you import something from a js module with a different name?",
+   "answer": "import {y as z} from foo.js" },
+
+
   ]
 
   ReactDOM.render(<App cards={data} />, document.getElementById('container'));

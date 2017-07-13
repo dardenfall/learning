@@ -17,7 +17,12 @@ Mathworks:
     .5 flashcards app
     .5 questions and java work
     .5 flashcards
-
+    1 flashcards
+    .5 flashcards
+    .5 flashcards and wayfarer
+    .5 mathlab training
+    .5 flashcards
+    
 React:
     .5 hr restarted training
     .5 jscomplete & https://app.pluralsight.com/player?course=react-js-getting-started&author=samer-buna&name=react-js-getting-started-m1&clip=2
@@ -25,35 +30,52 @@ React:
     1 review & starting https://app.pluralsight.com/player?course=react-fundamentals&author=liam-mclennan&name=react-fundamentals-m1-introducing&clip=0
     see below for repl work:
     .5 starting steam react lib at /Users/ascavone/sites/github/learning/react/steamLibrary
+    .5 redux
 
 notes:
 - AMD vs CommonJS
   https://auth0.com/blog/javascript-module-systems-showdown/
   AMD(require.js) better: async, a bit grosser syntactically
-
+  CommonJS: node (not quite), require and exports, sync API or use browserify
 
 TODO:
 - more design patterns
-  
 - strengths and weaknesses
+    {
+        {
+         manager:  
+            str: I have a great intuition into what motivates people and keeps them happy.  I think this is something that many processes take for granted in the industry.  For example, some people want to drive along making progress and checking boxes and scrum can be good for them.  Other people are more interested in the problem as a whole, and a more waterfallish way of doing things can be better.  I think there are ways that you can tailor things for particular people or at least step in as a MGR to help on the things they don't like to do : i.e. making tix for people 
+
+            weak: 
+        }
+        {
+         programmer:
+            str: I'm a big picture person who doesn't get too concerned with minor implementation details.  I'm more concerned with maintainability and sustainability than whether or not you can structure your code to take advantage of the latest javascript engine performance upgrades.  I'm not into preemptive optimization - I've found that if you worry about the big picture w/r/t design, performance problems usually aren't much of an issue, and if they are, they are spot changes just like bug fixes
+
+            weak: I have a difficult time keeping up with the latest and greatest.  I find that so many things that come out are simply minor steps (forwards or back) on things that have already been iterated on.  And I'm really not too interested in things until they've been out for a year or two because as I said, I'm about sustainability - if something isn't sustainable, than you can have as many todo list blog posts as you like, but it isn't going to last.  <HOW DO I DEAL WITH IT?>
+
+        }
+    }
+
 - disagreement with a coworker
   find a situation when I was wrong and came around.  Maybe code reviews?
-
+- sign back up for that newsletter
 - design pattern course pluralsight
 - steve smith plural sight OO course.  SOLID
-- spend some time on atom dev env
 - enhance an object with a new function
 - class with prototype
 - closures tests
-- currying
-- primitives
+
+x spend some time on sublime dev env
+x primitives
+x currying
+
 
 
 Javascript questions:
 --------------------
 
 Explain how prototypal inheritance works
-What do you think of AMD vs CommonJS?
 Explain why the following doesn't work as an IIFE: function foo(){ }();.
 What needs to be changed to properly make it an IIFE?
 What's the difference between a variable that is: null, undefined or undeclared?

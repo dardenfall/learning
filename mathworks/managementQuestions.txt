@@ -1,0 +1,43 @@
+management questions:
+
+--
+will:
+  c: keeping him interested
+  a: web assembly, web workers, proxy project for mocking
+
+--
+jeremy: 
+  c: keeping him busy in the beginning
+  a: found projects that were self contained and let him learn the project and gain confidence
+--
+brian:
+  c: wanting dev work but not good enough
+  a: work on internal projects like the display of test results, automated build from hipchat
+
+
+trouble finishing an issue:
+---
+c: API V2
+a: got in and took up some of the work
+
+c: UMT pixel 
+a: 'talked them into doing a view only first'
+
+=========================
+Things to think about:
+
+process
+  When does the negotiation between engineering and product take place ie - this feature 3 weeks, this feature 2 weeks?
+  Who does product come to with requirements changes?
+  How do you handle bug fixes and escalations - does it happen out of band? sustaining group?
+
+tooling
+  Anything to do mocking during development?
+  What is dev setup like?
+  What is onboarding employees like?
+
+code reviews
+  What problem are you trying to solve?  if you're trying to catch bugs, you need long in-depth code reviews and I don't think you can do that with a small company
+
+automated testing
+
