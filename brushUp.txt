@@ -8,6 +8,7 @@ Misc:
     1 = " also working on flashcards
     1 working on flashcards
     .5 mgmt stuff & flashcards
+    .5 namely app
 
 Mathworks:
     .5 getting interview info
@@ -31,6 +32,7 @@ React:
     1 review & starting https://app.pluralsight.com/player?course=react-fundamentals&author=liam-mclennan&name=react-fundamentals-m1-introducing&clip=0
     see below for repl work:
     .5 starting steam react lib at /Users/ascavone/sites/github/learning/react/steamLibrary
+    .5 redux
     .5 redux
 
 notes:
