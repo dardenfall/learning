@@ -33,6 +33,7 @@ Helix implementation - write the UI that allowed for the creation of lookalike /
   a/b modeling
 Segment Export improvements - convert existing functionality into a full-fledged list & 
 Segment Export
+API v2
 Bulk Create
 Standard attributes
 

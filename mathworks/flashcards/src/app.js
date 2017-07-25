@@ -98,8 +98,6 @@ class Card extends React.Component {
     "answer":"left & right outer join, there is a row for each row in the left or right tables respectively even if there is no match for the table"},
   { "name":"sql", "question": "normalization vs denormalization",
    "answer": "norm - elemenate duplication of data, like taking mailing & physical address out of a table to put them in an address table to reference there <br>- denorm - using some duplication of data to increase performance"},
-  { "name":"cs", "question": "what does SOLID mean?",
-   "answer":"-----"},
   { "name":"cs", "question": "what are 5 common big o notation values?",
    "answer":"O(1), O(n), O(log n), O(nlogn), O(n^2), O(c^n)"},
   { "name":"cs", "question": "what's a good example of O(log n)?",
@@ -130,7 +128,20 @@ class Card extends React.Component {
    "answer":"selects all p elements immediately next to a div"},
   {"name":"javascript",
    "question": "write the cannonical currying example?",
-   "answer":"----"},
+   "answer":"see code"},
+
+// function myAddEventListener(e, index)
+//   console.log(e,index)
+//   e.addEventListener('click', function(){
+//     console.log("Hey this is the nth thing", index);
+//   })
+// }
+
+// var elements = document.querySelectorAll('div');
+
+// for(let i=0; i < elements.length; i++){
+//     myAddEventListener(elements[i], i);
+// }
   {"name":"javascript",
    "question": "how do you check to see if something is null, undefined, or undeclared?",
    "answer":"variable == null works for null and undefined because null == undefined, but null === undefined is false.  typeof('var') === 'undefined' for undeclared"},
@@ -140,12 +151,6 @@ class Card extends React.Component {
   {"name":"javascript",
    "question": "What are implementations of each? ",
    "answer":"requirejs & node"},
-  {"name":"javascript",
-   "question": "write an example of AMD",
-   "answer":"------"},
-  {"name":"javascript",
-   "question": "write an example of CommonJS",
-   "answer":"------"},   
   {"name":"javascript",
    "question": "Compare and contrast them",
    "answer":"AMD is better: Async, tho harder to read. Common is opposite that"},
@@ -166,7 +171,7 @@ class Card extends React.Component {
    "answer":"allows multiple listeners, specify capturing" },
   {"name":"javascript",
    "question": "Describe javascript event model",
-   "answer":"------" },
+   "answer":"bubbling (start bottom goes up), capturing (starts high goes down)" },
   {"name":"javascript",
    "question": "Write a randomizer function",
    "answer":"function getRandomInt(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min;}" },

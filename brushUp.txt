@@ -24,6 +24,7 @@ Mathworks:
     .5 flashcards and wayfarer
     .5 mathlab training
     .5 flashcards
+    1 hour resume
     
 React:
     .5 hr restarted training
