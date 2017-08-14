@@ -1,4 +1,22 @@
->>
+jobs
+--------
+>> mgmt job:
+https://www.mathworks.com/company/jobs/opportunities/16291-software-development-manager?keywords=software+manager&country[]=US&
+
+web dev job:
+https://www.mathworks.com/company/jobs/opportunities/16240-senior-web-application-developer-javascript?job_type_id[]=1754&interest_area[]=1369&country[]=US&
+https://www.mathworks.com/company/jobs/opportunities/16167-ui-framework-engineer-javascript?interest_area[]=1369&country[]=US&
+https://www.mathworks.com/company/jobs/opportunities/16203-web-ui-engineer?interest_area[]=1369&country[]=US&
+
+C++:
+https://www.mathworks.com/company/jobs/opportunities/16708-senior-software-engineer?job_type_id[]=1754&interest_area[]=1369&country[]=US&
+
+
+https://www.mathworks.com/company/jobs/opportunities/16921-software-engineer-matlab-hardware-infrastructure?job_type_id[]=1754&interest_area[]=1369&country[]=US&
+
+https://www.mathworks.com/company/jobs/opportunities/16988-senior-software-tools-developer?job_type_id[]=1754&interest_area[]=1369&country[]=US&
+
+
 Tell me about a project you worked on.
 Tell me about a time you disagreed with a teammate.
 How do you manage with multitasking?

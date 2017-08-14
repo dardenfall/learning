@@ -1,0 +1,29 @@
+resumes
+
+MM: 
+skills: javascript, html, css, backbone, jquery, polymer, sass, node, selenium, python
+
+o Implemented views, models and component functionality for MediaMath user platform
+o Built, mentored and managed a team of five local and remote software developers
+o Prototyped new workflow patterns using alpha toolkits based on React and Redux 
+o Lead adoption of Selenium automated test infrastructure 
+o Wrote NodeJS/Restify api application Rest API business logic layer
+o Wrote Hawkeye, a python web-based performance dashboard authoring tool for internal developers to quickly generate detailed graphs of data from graphite servers
+o Implemented Catalyst Web interface for legacy ADS systems
+
+
+Akamai Inc, MA                                     October 2008 – January 2013
+skils: javascript, java, html, css, perl, sql, yui
+
+• Senior Software Engineer
+o Developed Spring-based reporting framework for Advertising Decision Solutions (ADS) group that integrated into the Akamai customer Portal 
+o Coded nightly cron using 30 day rolling averages to true-up tens of thousands of dollars in daily lossy cost data
+
+o Maintained and enhanced Perl CGI/Ajax RIA with YUI integration.  Wrote CGI, HTML, Javascript classes on top of a Mysql database for Web Advertising application that managed over 10 million dollars in yearly business.
+o Presented software architecture designs and demos to principle and senior engineers
+o Mentored several new hires, helping them with programming and environment configuration
+o Implemented user password encryption 
+o Wrote reports integrated into application framework that supported HTML/Excel formatting, scheduled, cron job-based  
+
+Openpages
+skils: 

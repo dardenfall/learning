@@ -1,7 +1,7 @@
 
+Built a team from one to five
 
 Hired and mentored jess
-Built a team from one to five
 Managed in-stream refactoring while providing consistent high-quality feature delivery
 Drove the implementation of git-hooked automated test coverage
 Prioritization exercises
@@ -14,9 +14,14 @@ brian
 prianka -
   too slow - daily checkins
 bhargavi - 
-  univested / pregnancies - found projects where she could work at her own pace, kept on top of requirment
+  univested / pregnancies - found projects where she could work at her own pace, kept on top of requirement
 jeremy - 
   nervous, unsure of himself - found him some projects from the pipeline that were 
+  needed to learn dev - edx courses that I checked in with him about. 
+
+Strand:
+------
+
 
 Projects:
 --------
@@ -36,5 +41,6 @@ Segment Export
 API v2
 Bulk Create
 Standard attributes
+Move pixels and Audience into our own tabs
 
 
