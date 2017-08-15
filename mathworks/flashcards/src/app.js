@@ -246,7 +246,9 @@ class Card extends React.Component {
    {"name": "es6",
    "question": "define a constructor with a class variable",
    "answer": "constructor(arg){ super(arg); this.x = 0" },
-
+   {"name": "es6",
+   "question": "how would you make a stack with O(1) push , pop, min",
+   "answer": "extend a stack, keep a second stack with the corresponding min value for each push made onto the stack" },
 
 
   ]

@@ -30,6 +30,8 @@ Mathworks:
     .5 interview skills
     1.5 interview prep
     1.5 interview prep
+    1.5 interview prep
+    
 React:
     .5 hr restarted training
     .5 jscomplete & https://app.pluralsight.com/player?course=react-js-getting-started&author=samer-buna&name=react-js-getting-started-m1&clip=2
